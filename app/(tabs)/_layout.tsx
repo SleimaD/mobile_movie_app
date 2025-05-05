@@ -6,7 +6,8 @@ import { icons } from '@/constants/icons'
 
 
 
-const TabIcon = ({focused, icon, title}) => {
+
+const TabIcon = ({ focused, icon, title }: any) => {
 
   if (focused) {
     return (
