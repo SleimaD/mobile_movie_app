@@ -1,51 +1,63 @@
-# Welcome to your Expo app 👋
+# 🎬 React Native Movie App (TypeScript)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a mobile movie app built using **React Native** and **TypeScript**, following the tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=f8Z9JyB2EIE).
 
-## Get started
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+- 🔍 Search movies from the TMDB API
+- 🎞️ See trending and popular movies
+- 🧾 View detailed movie information (ratings, budget, revenue, etc.)
+- 🎨 Modern mobile UI with Tailwind + NativeWind
+- ☁️ Appwrite integration for backend data (under construction)
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ⚙️ Technologies
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [React Native](https://reactnative.dev/)
+- [Expo SDK 53](https://docs.expo.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS + NativeWind](https://www.nativewind.dev/)
+- [Appwrite](https://appwrite.io/)
+- [TMDB API](https://www.themoviedb.org/)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🧠 Learning Goals
 
-```bash
-npm run reset-project
-```
+- Practice React Native + TypeScript
+- Use real APIs and async data fetching
+- Explore modern styling with Tailwind in a native context
+- Understand mobile routing with `expo-router`
+- Learn how Appwrite connects to mobile apps
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🚀 Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+Clone the repo:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- git clone https://github.com/yourusername/movie-app.git
+- cd movie-app
+- npm install
+- npx expo start 
 
-## Join the community
+Then open the app with Expo Go on your phone or with a simulator.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# mobile_movie_app
+## 📝 Credits 
+
+Big thanks to JavaScript Mastery and @adrianhajdin for the excellent tutorial.
+
+This is a personal learning project, not intended for commercial use.
+
+🔗 Original tutorial: [YouTube - Build a Movie App with React Native](https://www.youtube.com/watch?v=f8Z9JyB2EIE)  
+💻 Source code by the author: [GitHub - adrianhajdin/react-native-movie-app](https://github.com/adrianhajdin/react-native-movie-app)
+
+
+ 
